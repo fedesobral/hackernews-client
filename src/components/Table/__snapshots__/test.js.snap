@@ -1,0 +1,346 @@
+exports[`Table snapshots 1`] = `
+<div
+  class="table">
+  <div
+    class="table-header">
+    <span
+      class="midColumn">
+      <button
+        class="button-inline"
+        type="button">
+        Title
+        <span
+          class="fa" />
+      </button>
+    </span>
+    <span
+      class="midColumn">
+      <button
+        class="button-inline"
+        type="button">
+        Author
+        <span
+          class="fa" />
+      </button>
+    </span>
+    <span
+      class="smallColumn">
+      <button
+        class="button-inline"
+        type="button">
+        Comments
+        <span
+          class="fa" />
+      </button>
+    </span>
+    <span
+      class="smallColumn">
+      <button
+        class="button-inline"
+        type="button">
+        Points
+        <span
+          class="fa" />
+      </button>
+    </span>
+    <span
+      class="smallColumn">
+      <button
+        class=""
+        type="button">
+        Archive
+      </button>
+    </span>
+  </div>
+  <div
+    class="table-body">
+    <div
+      class="table-row">
+      <span
+        class="midColumn">
+        <a>
+          1
+        </a>
+      </span>
+      <span
+        class="midColumn">
+        1
+      </span>
+      <span
+        class="smallColumn">
+        1
+      </span>
+      <span
+        class="smallColumn">
+        1
+      </span>
+      <span
+        class="smallColumn">
+        <button
+          class="button-inline"
+          type="button">
+          Dismiss
+        </button>
+      </span>
+    </div>
+    <div
+      class="table-row">
+      <span
+        class="midColumn">
+        <a
+          href="www.google.com">
+          2
+        </a>
+      </span>
+      <span
+        class="midColumn">
+        2
+      </span>
+      <span
+        class="smallColumn">
+        2
+      </span>
+      <span
+        class="smallColumn">
+        2
+      </span>
+      <span
+        class="smallColumn">
+        <button
+          class="button-inline"
+          type="button">
+          Dismiss
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Table sorted 1`] = `
+<Table
+  activeSortKey="TITLE"
+  isSortReverse={true}
+  list={
+    Array [
+      Object {
+        "author": "1",
+        "num_comments": 1,
+        "objectID": "1x",
+        "points": 1,
+        "title": "1",
+      },
+      Object {
+        "author": "2",
+        "num_comments": 2,
+        "objectID": "2y",
+        "points": 2,
+        "title": "2",
+        "url": "www.google.com",
+      },
+    ]
+  }
+  sortKey="TITLE">
+  <div
+    className="table">
+    <TableHeader
+      activeSortKey="NONE"
+      isSortReverse={false}
+      onSort={[Function]}>
+      <div
+        className="table-header">
+        <span
+          className="midColumn">
+          <Sort
+            activeSortKey="NONE"
+            isSortReverse={false}
+            onSort={[Function]}
+            sortKey="TITLE">
+            <Button
+              className="button-inline"
+              onClick={[Function]}>
+              <button
+                className="button-inline"
+                onClick={[Function]}
+                type="button">
+                Title
+                <span
+                  className="fa" />
+              </button>
+            </Button>
+          </Sort>
+        </span>
+        <span
+          className="midColumn">
+          <Sort
+            activeSortKey="NONE"
+            isSortReverse={false}
+            onSort={[Function]}
+            sortKey="AUTHOR">
+            <Button
+              className="button-inline"
+              onClick={[Function]}>
+              <button
+                className="button-inline"
+                onClick={[Function]}
+                type="button">
+                Author
+                <span
+                  className="fa" />
+              </button>
+            </Button>
+          </Sort>
+        </span>
+        <span
+          className="smallColumn">
+          <Sort
+            activeSortKey="NONE"
+            isSortReverse={false}
+            onSort={[Function]}
+            sortKey="COMMENTS">
+            <Button
+              className="button-inline"
+              onClick={[Function]}>
+              <button
+                className="button-inline"
+                onClick={[Function]}
+                type="button">
+                Comments
+                <span
+                  className="fa" />
+              </button>
+            </Button>
+          </Sort>
+        </span>
+        <span
+          className="smallColumn">
+          <Sort
+            activeSortKey="NONE"
+            isSortReverse={false}
+            onSort={[Function]}
+            sortKey="POINTS">
+            <Button
+              className="button-inline"
+              onClick={[Function]}>
+              <button
+                className="button-inline"
+                onClick={[Function]}
+                type="button">
+                Points
+                <span
+                  className="fa" />
+              </button>
+            </Button>
+          </Sort>
+        </span>
+        <span
+          className="smallColumn">
+          <Button
+            className="">
+            <button
+              className=""
+              type="button">
+              Archive
+            </button>
+          </Button>
+        </span>
+      </div>
+    </TableHeader>
+    <div
+      className="table-body">
+      <TableRow
+        item={
+          Object {
+            "author": "1",
+            "num_comments": 1,
+            "objectID": "1x",
+            "points": 1,
+            "title": "1",
+          }
+        }>
+        <div
+          className="table-row">
+          <span
+            className="midColumn">
+            <a>
+              1
+            </a>
+          </span>
+          <span
+            className="midColumn">
+            1
+          </span>
+          <span
+            className="smallColumn">
+            1
+          </span>
+          <span
+            className="smallColumn">
+            1
+          </span>
+          <span
+            className="smallColumn">
+            <Button
+              className="button-inline"
+              onClick={[Function]}>
+              <button
+                className="button-inline"
+                onClick={[Function]}
+                type="button">
+                Dismiss
+              </button>
+            </Button>
+          </span>
+        </div>
+      </TableRow>
+      <TableRow
+        item={
+          Object {
+            "author": "2",
+            "num_comments": 2,
+            "objectID": "2y",
+            "points": 2,
+            "title": "2",
+            "url": "www.google.com",
+          }
+        }>
+        <div
+          className="table-row">
+          <span
+            className="midColumn">
+            <a
+              href="www.google.com">
+              2
+            </a>
+          </span>
+          <span
+            className="midColumn">
+            2
+          </span>
+          <span
+            className="smallColumn">
+            2
+          </span>
+          <span
+            className="smallColumn">
+            2
+          </span>
+          <span
+            className="smallColumn">
+            <Button
+              className="button-inline"
+              onClick={[Function]}>
+              <button
+                className="button-inline"
+                onClick={[Function]}
+                type="button">
+                Dismiss
+              </button>
+            </Button>
+          </span>
+        </div>
+      </TableRow>
+    </div>
+  </div>
+</Table>
+`;

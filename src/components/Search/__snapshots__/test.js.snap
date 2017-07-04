@@ -1,0 +1,10 @@
+exports[`Search snapshots 1`] = `
+<form>
+  <input
+    type="text" />
+  <button
+    type="submit">
+    Search
+  </button>
+</form>
+`;

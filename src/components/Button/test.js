@@ -18,4 +18,15 @@ describe("Button", () => {
 		const tree = renderer.create(<Button className="awesome-btn">Click me</Button>).toJSON();
 		expect(tree).toMatchSnapshot();
 	});
+
+	it('Event onClick called only once', ()=>{
+		const onClick = jest.fn();
+
+		const component = renderer.create(<Button onClick={onClick}>Click me</Button>);
+		const tree = component.toJSON();
+
+		expect(onClick).not.toBeCalled();
+		tree.props.onClick();
+		expect(onClick).toHaveBeenCalledTimes(1);
+	});
 });

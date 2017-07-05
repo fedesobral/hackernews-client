@@ -1,0 +1,17 @@
+exports[`Button Snapshot className button 1`] = `
+<button
+  className="awesome-btn"
+  onClick={undefined}
+  type="button">
+  Click me
+</button>
+`;
+
+exports[`Button Snapshot click me button 1`] = `
+<button
+  className=""
+  onClick={undefined}
+  type="button">
+  Click me
+</button>
+`;

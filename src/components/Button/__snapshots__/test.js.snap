@@ -1,7 +1,0 @@
-exports[`Button snapshots 1`] = `
-<button
-  class=""
-  type="button">
-  Button
-</button>
-`;

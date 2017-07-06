@@ -1,0 +1,51 @@
+exports[`Search Enzyme snapshot 1`] = `
+<form>
+  <input
+    type="text" />
+  <button
+    type="submit">
+    Search
+  </button>
+</form>
+`;
+
+exports[`Search Enzyme snapshot mount 1`] = `
+<Search>
+  <form>
+    <input
+      type="text" />
+    <button
+      type="submit">
+      Search
+    </button>
+  </form>
+</Search>
+`;
+
+exports[`Search Snapshot click me Search 1`] = `
+<form
+  onSubmit={undefined}>
+  <input
+    onChange={undefined}
+    type="text"
+    value={undefined} />
+  <button
+    type="submit">
+    Search
+  </button>
+</form>
+`;
+
+exports[`Search Snapshot value Search 1`] = `
+<form
+  onSubmit={undefined}>
+  <input
+    onChange={undefined}
+    type="text"
+    value="keys" />
+  <button
+    type="submit">
+    Find
+  </button>
+</form>
+`;

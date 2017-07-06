@@ -15,7 +15,7 @@ describe("Button", () => {
 		expect(tree).toMatchSnapshot();
 	});
 	it('Snapshot className button', () => {
-		const tree = renderer.create(<Button className="awesome-btn">Click me</Button>).toJSON();
+		const tree = renderer.create(<Button className="awesome-btn">Click you</Button>).toJSON();
 		expect(tree).toMatchSnapshot();
 	});
 

@@ -3,7 +3,7 @@ exports[`Button Snapshot className button 1`] = `
   className="awesome-btn"
   onClick={undefined}
   type="button">
-  Click me
+  Click you
 </button>
 `;
 
